@@ -3,9 +3,9 @@
 Motor left_motor(6, 5); // forward pin, backward pin
 Motor right_motor(10, 11);
 
-LineSensor middle_sensor(A0, 100); // 100 is the threshold
-LineSensor left_sensor(A1, 100);
-LineSensor right_sensor(A2, 100);
+LineSensor middle_sensor(A0, 200); // 200 is the threshold
+LineSensor left_sensor(A1, 200);
+LineSensor right_sensor(A2, 200);
 
 void setup() {
   // Serial.begin(9600); // Not needed
