@@ -31,5 +31,5 @@ class LineSensor {
 
   LineSensor(int pin, int threshold) : pin(pin), threshold(threshold) { pinMode(pin, INPUT); }
 
-  bool is_on_line() { return analogRead(pin) < threshold; }
+  bool is_on_line() { return analogRead(pin) > threshold; }
 };
